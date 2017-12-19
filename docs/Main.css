@@ -1,5 +1,39 @@
 body {margin:0;}
 
+
+h1, h2, h3, h4, h5, h6, p, blockquote, li, ul, ol {
+  color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lobster', cursive;
+}
+p, li, a {
+  font-family: 'Roboto', sans-serif;
+}
+.spacer {
+  margin-bottom: 55px;
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 15px;
+  transition: background-color 1.6s ease-in-out;
+
+}
+button a:hover {
+  background-color: black;
+}
+button:hover {
+  background-color: green;
+  transition: 1.6s;
+}
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -77,34 +111,3 @@ body {margin:0;}
   display: none;
   text-align: center;
 }
-h1, h2, h3, h4, h5, h6, p, blockquote, li, ul, ol {
-  color: white;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lobster', cursive;
-}
-p, li, a {
-  font-family: 'Roboto', sans-serif;
-}
-.spacer {
-  margin-bottom: 55px;
-}
-button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  font-size: 18px;
-  border-radius: 15px;
-
-}
-button:hover, a:hover {
-  background-color: green;
-  transition: 1.6s;
-  backgroundc
-}
-button:hover
