@@ -1,12 +1,47 @@
-<<<<<<< Updated upstream
 body {margin:0;}
 
+
+h1, h2, h3, h4, h5, h6, p, blockquote, li, ul, ol {
+  color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lobster', cursive;
+}
+p, li, a {
+  font-family: 'Roboto', sans-serif;
+}
+.spacer {
+  margin-bottom: 55px;
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 15px;
+  transition: background-color 1.6s ease-in-out;
+
+}
+button a:hover {
+  background-color: black;
+}
+button:hover {
+  background-color: green;
+  transition: 1.6s;
+}
 .navbar {
   overflow: hidden;
   background-color: #333;
   position: fixed;
   top: 0;
   width: 100%;
+  transition: 1.6;
+
 }
 
 .navbar a {
@@ -17,8 +52,13 @@ body {margin:0;}
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-}
 
+}
+.navbar a:hover {
+  transition: 0.6s;
+    background-color: red;
+
+}
 .main {
   padding: 16px;
   margin-top: 30px;
@@ -49,8 +89,6 @@ body {margin:0;}
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-
-/* Add animation to "page content" */
 .animate-bottom {
   position: relative;
   -webkit-animation-name: animatebottom;
@@ -73,86 +111,3 @@ body {margin:0;}
   display: none;
   text-align: center;
 }
-h1, h2, h3, h4, h5, h6, p, blockquote {
-  color: white;
-}
-.spacer {
-  margin-bottom: 55px;
-}
-=======
-body {margin:0;}
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* I am the |MEME| */
-.main {
-  padding: 16px;
-  margin-top: 30px;
-}
-#loader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 1;
-  width: 150px;
-  height: 150px;
-  margin: -75px 0 0 -75px;
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid #3498db;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-}
-
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-/* Add animation to "page content" */
-.animate-bottom {
-  position: relative;
-  -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 1s;
-  animation-name: animatebottom;
-  animation-duration: 1s
-}
-
-@-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 }
-  to { bottom:0px; opacity:1 }
-}
-
-@keyframes animatebottom {
-  from{ bottom:-100px; opacity:0 }
-  to{ bottom:0; opacity:1 }
-}
-
-#myDiv {
-  display: none;
-  text-align: center;
-}
->>>>>>> Stashed changes
