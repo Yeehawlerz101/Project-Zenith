@@ -6,6 +6,8 @@ body {margin:0;}
   position: fixed;
   top: 0;
   width: 100%;
+            transition: 1.6;
+
 }
 
 .navbar a {
@@ -16,8 +18,13 @@ body {margin:0;}
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-}
 
+}
+.navbar a:hover {
+
+    background-color: red;
+
+}
 .main {
   padding: 16px;
   margin-top: 30px;
@@ -72,7 +79,7 @@ body {margin:0;}
   display: none;
   text-align: center;
 }
-h1, h2, h3, h4, h5, h6, p, blockquote {
+h1, h2, h3, h4, h5, h6, p, blockquote, li, ul, ol {
   color: white;
 }
 .spacer {
