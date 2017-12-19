@@ -19,3 +19,4 @@
 * http://wiki.garrysmod.com
 * https://www.sublimetext.com
 * https://app.grammarly.com
+* https://www.gitkraken.com/
