@@ -6,7 +6,30 @@
     <link rel="stylesheet" href="Reset.css">
     <link rel="stylesheet" href="Main.css">
   </head>
-  <body>
+  <body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+    <script>
+    var myVar;
+
+    function myFunction() {
+        myVar = setTimeout(showPage, 3000);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+
+<nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
 <blockquote cite="https://quotefancy.com/alan-turing-quoes">
   Codes are a puzzle. A game, just like any other game.
 — Alan Turing
