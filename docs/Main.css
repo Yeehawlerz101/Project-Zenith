@@ -25,7 +25,6 @@ button {
   font-size: 18px;
   border-radius: 15px;
   transition: background-color 1.6s ease-in-out;
-
 }
 button a:hover {
   background-color: black;
@@ -34,16 +33,23 @@ button:hover {
   background-color: green;
   transition: 1.6s;
 }
+.Coming-Soon {
+
+}
+.Integrated {
+  color: green;
+}
+.Not-Integrated {
+  color: red;
+}
 .navbar {
   overflow: hidden;
   background-color: #333;
   position: fixed;
   top: 0;
   width: 100%;
-  transition: 1.6;
-
+  transition: 1.6
 }
-
 .navbar a {
   float: left;
   display: block;
@@ -52,11 +58,11 @@ button:hover {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-
+transition: background-color 0.6s ease-in-out;
 }
 .navbar a:hover {
-  transition: 0.6s;
     background-color: red;
+      transition: background-color 0.6s ease-in-out;
 
 }
 .main {
