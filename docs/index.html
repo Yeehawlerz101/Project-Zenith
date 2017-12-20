@@ -7,21 +7,14 @@
     <link rel="stylesheet" href="Main.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto" rel="stylesheet">
   </head>
-  <body onload="myFunction()" style="margin:0; background-color:black;">
-    <div id="loader"></div>
-
-    <div style="display:none;" id="myDiv" class="animate-bottom">
+  <body style="margin:0; background-color:black;">
+    <audio id="audio" autoplay="autoplay">
+  <source src="Madeon-Pop-Culture-live-mashup.mp3" type="audio/mp3">
+</audio>
     <script>
+    var audio = document.getElementById("audio");
+    audio.volume = 0.003;
     var myVar;
-
-    function myFunction() {
-        myVar = setTimeout(showPage, 3000);
-    }
-
-    function showPage() {
-      document.getElementById("loader").style.display = "none";
-      document.getElementById("myDiv").style.display = "block";
-    }
     </script>
 
 <nav class="navbar">
@@ -34,14 +27,13 @@
  <div class="spacer">
 
  </div>
-<blockquote cite="https://quotefancy.com/alan-turing-quoes">
+
   Codes are a puzzle. A game, just like any other game.
 — Alan Turing
-</blockquote>
 <h1>Project Zenith</h1>
 <h5>Created By: Yeehawlerz101 & TimmiBowtie</h5>
 <h3>Status:</h3> <button type="button" name="Status">Early Development</button>
-  </div>
+
 
 <h3>Our Goal</h3>
 <ul>
