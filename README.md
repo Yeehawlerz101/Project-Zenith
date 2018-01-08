@@ -13,7 +13,7 @@
 ## Coming Soon
 - Basic Menu
 - 2D ESP Module
-- HaloGraphic Outlines
+- Holographic Outlines
 - "True-Sight" Mode
 ## Quick Links
 * http://wiki.garrysmod.com

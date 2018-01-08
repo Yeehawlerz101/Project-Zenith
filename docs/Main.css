@@ -1,113 +1,105 @@
-body {margin:0;}
-
-
+body {
+margin : 0;
+background-color : black;
+}
 h1, h2, h3, h4, h5, h6, p, blockquote, li, ul, ol {
-  color: white;
+color : white;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lobster', cursive;
+font-family : 'Lobster', cursive;
 }
 p, li, a {
-  font-family: 'Roboto', sans-serif;
+font-family : 'Roboto', sans-serif;
 }
 .spacer {
-  margin-bottom: 55px;
+margin-bottom : 55px;
+clear: both;
 }
 button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  font-size: 18px;
-  border-radius: 15px;
-  transition: background-color 1.6s ease-in-out;
-
+border : none;
+outline : 0;
+display : inline-block;
+padding : 8px;
+color : white;
+background-color : #000;
+text-align : center;
+cursor : pointer;
+font-size : 18px;
+border-radius : 15px;
+transition : background-color 1.6s ease-in-out;
 }
 button a:hover {
-  background-color: black;
+background-color : black;
 }
 button:hover {
-  background-color: green;
-  transition: 1.6s;
+background-color : green;
+transition : 1.6s;
+}
+ol {
+    counter-reset: item;
+    list-style-type: none;
+}
+li { display: block; }
+
+.Integrated {
+color : green;
+}
+.Not-Integrated {
+color : red;
 }
 .navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  transition: 1.6;
+overflow : hidden;
+background-color : #333;
+position : fixed;
+top : 0;
+width : 100%;
+}
+.Goals {
+   list-style-type: none;
+   float: left;
+   padding-left: 1%;
+   margin-left: auto;
+   margin-right: auto;
+      width: 45%;
 
 }
-
+.Features {
+   list-style-type: none;
+   float: left;
+   margin-left: auto;
+   margin-right: auto;
+   width: 45%;
+}
+.Coming-Soon {
+   list-style-type: none;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
 .navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-
+float : left;
+display : block;
+color : #f2f2f2;
+text-align : center;
+padding : 14px 16px;
+text-decoration : none;
+font-size : 17px;
+transition : background-color 0.6s ease-in-out;
 }
 .navbar a:hover {
-  transition: 0.6s;
-    background-color: red;
-
+background-color : red;
+transition : background-color 0.6s ease-in-out;
 }
 .main {
-  padding: 16px;
-  margin-top: 30px;
+padding : 16px;
+margin-top : 30px;
 }
-#loader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 1;
-  width: 150px;
-  height: 150px;
-  margin: -75px 0 0 -75px;
-  border: 16px solid white;
-  border-radius: 50%;
-  border-top: 16px solid red;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 0.5s linear infinite;
-  animation: spin 0.5s linear infinite;
-}
-
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-.animate-bottom {
-  position: relative;
-  -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 1s;
-  animation-name: animatebottom;
-  animation-duration: 1s
-}
-
-@-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 }
-  to { bottom:0px; opacity:1 }
-}
-
-@keyframes animatebottom {
-  from{ bottom:-100px; opacity:0 }
-  to{ bottom:0; opacity:1 }
-}
-
-#myDiv {
-  display: none;
-  text-align: center;
+.Quote {
+background-image: url("pexels-photo-614117.jpeg");
+/* https://www.pexels.com/photo/abstract-achievement-bright-business-614117/ */
+height : 500px;
+background-attachment : fixed;
+background-position : center;
+background-repeat : no-repeat;
+background-size : cover;
 }
