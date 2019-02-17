@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Project Zenith</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap-412.min.css">
+  <!-- Prism Syntax Highlighting CSS -->
+  <link rel="stylesheet" href="prism.css">
+  <script src="prism.js"></script>
+
+  <!--   Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="container-fluid Fixed-Top-NavBar" role="Navbar Container">
+    <div>
+      <div class="row">
+        <div class="col">
+
+        </div>
+        <div class="col">
+          <a href="http://" target="_blank" rel="noopener noreferrer">Project Zenith</a>
+        </div>
+        <div class="col">
+          &nbsp;<a href="http://" target="_blank" rel="noopener noreferrer">Home</a>
+        </div>
+        <div class="col">
+          &nbsp;<a href="http://" target="_blank" rel="noopener noreferrer">Updates</a>
+        </div>
+        <div class="col">
+          &nbsp;<a href="http://" target="_blank" rel="noopener noreferrer">Modules</a>
+        </div>
+        <div class="col">
+          &nbsp;<a href="http://" target="_blank" rel="noopener noreferrer">Github</a>
+        </div>
+        <div class="col">
+          &nbsp;<a href="http://" target="_blank" rel="noopener noreferrer">Error Codes</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+  <div role="Image Div">
+    <div class="Top-Image">
+
+      <div class="Top-Image-Text">
+        <div class="Large-Spacer">
+          <br>
+        </div>
+        <center>
+          <h2>Project Zenith</h2>
+          <p class="text-muted Text-Shadow-Hover">A Module Based Client-Side Scripting Plugin</p>
+        </center>
+      </div>
+    </div>
+  </div>
+  <div role="Update Section">
+    <div role="Update Image">
+
+    </div>
+    <div role="Update Current">
+      <div class="Recent-Update">
+
+        <!-- Start Update Here-->
+        <div class="Update#1">
+          <h3>Update #1 - "Lightbulb Cheddar"</h3>
+          <hr>
+          <p>This initial release is more of a beta test and is more of a testing of the waters for this project.</p>
+          <p><small>Posted on 11/20/2018</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Finish Update Here-->
+
+  <div class="container-fluid mx-auto" role="Get Your Own Copy">
+
+    <h3>Getting your own copy</h3>
+    <p>Navigate to your Gmod install location</p>
+    <p>For me its <code>E:\SteamLibrary\steamapps\common\GarrysMod</code>.</p>
+    <p>Then navigate into the "garrysmod" folder and then navigate into the "lua" folder</p>
+    <p> so now your file explorer should show you <code>\steamapps\common\GarrysMod\garrysmod\lua</code></p>
+    <p> from here you need to place our install lua found below.</p>
+    <h6>Please note that there may be some lag/throttling due to downloading 10-15 files asyncherously</h6>
+    <p> When completed you should recieve a download complete code telling you to enter PZ_init into the console</p>
+    <p> Running PZ_init will activate the base loader and allow plugins to be loaded.</p>
+    <p>To run your plugin with Project Zenith do PZ_compile_url %YourURLHere.com/FancyLuaName.lua% however we would
+      prefer to have your plugin hosted on the Github then we would simply do PZ_add_plugin "name" so itd be not only
+      easier for everyone but simpler.</p>
+    <div class="" lang="lua">
+      <pre class="line-numbers data-line data-label whitespace-normalization"> <code class="language-Lua">
+    -- Project Zenith Offical Web Downloaded -- 
+    print("You have selected [Project Zenith]/[PZ]")
+    print("It appears that you have downloaded this loader version from the Website! Awesome sauce!")
+    print("Beginning to Download PZ-Core-API")
+    print("Beginning to Download PZ-Core-Utility")
+    print("Beginning to Download PZ-Core-Color")
+    print("Beginning to Download Core-PZ-Base-Module-List")
+    https://github.com/Yeehawlerz101/Project-Zenith
+    LocalPlayer():ChatPrint("[PZ]: Thanks for downloading!")
+    LocalPlayer():ChatPrint("[PZ]: There might be some lag as we fetch some data from our Github Repo")
+
+    LocalPlayer():ChatPrint("[PZ]: We've downloaded all we need! Go into the console and type PZ_init to get started")  
+      </code></pre>
+    </div>
+  </div>
+  <div class="Diagram-PZ-How-It-Works">
+
+
+
+    <center>
+      <h3>How does Project Zenith Work?</h3>
+      <p class="text-muted Text-Shadow">It's actually pretty simple.</p>
+    </center>
+    <div class="Container ">
+      <div class="row mx-auto">
+        <div class="col">
+          <div class="Local-Computer How-It-Works Text-Shadow">
+            <h5>Local Computer</h5>
+            <p class=" Text-Shadow Step-Details"> #1. GarrysMod is running and user has just ran the installation
+              script ingame. </p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="Github-Servers How-It-Works Text-Shadow">
+            <h5>GitHub Servers</h5>
+            <p class=" Text-Shadow Step-Details"> #2. The client attempts to download the master files from the
+              repository from github. </p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="Local-Computer How-It-Works Text-Shadow">
+            <h5>Local Computer</h5>
+            <p class=" Text-Shadow Step-Details"> #3. The downloaded files have been ran and compiled in the current
+              process GarrysMod. </p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="Project-Zenith How-It-Works Text-Shadow">
+            <h5>Project Zenith</h5>
+            <p class=" Text-Shadow Step-Details"> #4. Open the console to find information about PZ and what commands
+              are available.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div role="Update Previous">
+    <!-- Start Update Here-->
+
+    <hr>
+    <br>
+    <hr>
+    <!-- Finish Update Here-->
+  </div>
+
+
+  <div class="">
+    <div class="mx-auto ErrorCodeHeader" >
+      <h5>Types of codes</h5>
+      <p class="text-muted">We use the standard HTTP status codes as a framework</p>
+    </div>
+    <div class="container-fluid">
+
+ 
+    <div class="row">
+
+      <div class="col ErrorCode">
+        <b>1xx - Informational</b>
+        <hr>
+        <br>
+        <p>100 - Continue</p>
+        <p class="text-muted">The server has recived the request headers and the client should proceed to send the
+          request body.</p>
+
+
+      </div>
+
+
+
+      <div class="col ErrorCode">
+        <b> 2xx - Success</b>
+        <hr>
+        <br>
+        <p>200 - Ok</p>
+        <p class="text-muted">Standard response for successful HTTP requests</p>
+        <hr>
+        <p>201 - Created</p>
+        <p class="text-muted">The request has been fulfilled, resulting in the creation of a new resource.</p>
+        <hr>
+        <p>202 - Accepted</p>
+        <p class="text-muted">The request has been accepted but hasent completed processing.</p>
+        <hr>
+      </div>
+
+
+
+
+
+      <div class="col ErrorCode">
+        <b> 3xx - Redirect</b>
+        <hr>
+        <br>
+
+
+
+      </div>
+      <div class="col ErrorCode">
+        <b>4xx - Client Errors</b>
+        <hr>
+        <br>
+        <p>400 - Bad Request</p>
+        <hr>
+        <p>420 - Enhance Your Calm</p>
+        <p class="text-muted">You're being rate limited please slow down your requests</p>
+
+        <hr>
+      </div>
+      <div class="col ErrorCode">
+        <b> 5xx - Server Error</b>
+        <hr>
+        <br>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="Jquery-331-slim.min.js"></script>
+  <script src="popper-143.min.js"></script>
+  <script src="bootstrap-412.min.js"></script>
+</body>
+
+</html>

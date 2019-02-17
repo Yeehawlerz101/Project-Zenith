@@ -1,0 +1,38 @@
+/*- - - - -NavBar Section - - - - -*/
+nav{ background-color: rgba(24, 24, 24, 0.664);width: 100%;}
+nav a {color: rgba(169, 169, 169, 0.986); transition: 1s;}
+.Fixed-Top-NavBar {position: fixed;}
+nav a:hover {color: white;transition: 1s;text-shadow: 1px 1px 5px black}
+/* - - - - - - - - - - - - - - - My Custom CSS Rules - - - - - - - - - - - - - - -*/
+
+
+
+/* - - - - -Text-Shadow Section - - - - -*/
+.Text-Shadow {text-shadow: 1px 1px 5px black; transition: 1s;}
+.Text-Shadow-Hover {text-shadow: 1px 1px 5px black; transition: 1s;}
+.Text-Shadow-Hover:hover {text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.473); transition: 1s;text-transform: capitalize;}
+
+
+.Recent-Update {background-color: gray;color: white;text-shadow: 1px 1px 2px black; background-image: url("kaezLBs.jpg"); max-width: 100%;overflow: hidden; }
+body > div:nth-child(3) > div:nth-child(2) > div > hr {background-color: white}
+.Top-Image {background-color: black; background-image: url("street.jpg"); max-width: 100%;overflow: hidden}
+.Top-Image-Text {color: white;text-shadow: 1px 1px 5px black}
+.Large-Spacer {margin-bottom: 15%}
+.Install-Lua {background-color: gray; color: white;}
+.Code-Lua{ color: white;}
+
+.How-It-Works {border-radius: 5px;color: white;max-width: 15rem;max-height: 15rem;text-align:center;box-shadow: 1px 1px 3px black;transition: 1s}
+.Local-Computer{background-color: rgb(54, 54, 252);}
+.How-It-Works > h5 {text-decoration-line: underline}
+.Github-Servers{background-color: rgb(71, 1, 104);}
+.Step-Details {color: rgba(255, 255, 255, 0.678);}
+.Github-Servers:hover,.Local-Computer:hover,.Project-Zenith:hover{box-shadow:5px 5px 10px rgba(0, 0, 0, 0.705); transition: 1s }
+.Project-Zenith{background-color: rgb(1, 104, 6);}
+body > div.Diagram-PZ-How-It-Works {background-image:url("Firewatch.jpg")}
+.ErrorCode, .ErrorCodeHeader {text-align: center;}
+body > div:nth-child(7) > div.container-fluid > div > div > hr {min-height: 3px;max-height: 5px;}
+body > div:nth-child(7) > div.container-fluid > div > div:nth-child(1) > hr {background-color: rgb(0, 153, 255)}
+body > div:nth-child(7) > div.container-fluid > div > div:nth-child(2) > hr {background-color: rgb(0, 255, 21)}
+body > div:nth-child(7) > div.container-fluid > div > div:nth-child(3) > hr {background-color: rgb(255, 145, 0)}
+body > div:nth-child(7) > div.container-fluid > div > div:nth-child(4) > hr {background-color: rgb(255, 0, 0)}
+body > div:nth-child(7) > div.container-fluid > div > div:nth-child(5) > hr {background-color: rgb(37, 37, 37)}

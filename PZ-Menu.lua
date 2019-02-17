@@ -5,7 +5,7 @@
 
 timer.Simple( 1,  function () http.Fetch("https://raw.githubusercontent.com/Yeehawlerz101/GmodColors/master/GmodColors.lua", function(ret) RunString(ret) end) end) -- Use Predefined Colors for easy color coding different types of menus and features etc.
 timer.Simple( 3, function() print( "Attempting to Sync to the Project-Zenith Github Repo..." ) end ) -- Printing for debuging
-timer.Simple( 10, function() print( "Loading the Project-Zenith Github Repo..." ) -- We're running this to allow the loading of the GmodLua Repo to sync so that we actually get colors mounted onto the users device.
+timer.Simple( 10, function() print( "Loading the Project-Zenith Github Repo..." ) -- We're running this to allow the loading of the GmodLua Repo to sync so that we actually get colors mounted. Plus the user may have a slow connection so allowing some time to pass would allow the download to complete and avoid errors
 chat.AddText( White, "{Project-Zenith} ", Green, "The main menu loader componet has been loaded.")
 chat.AddText( White, "{Project-Zenith} ", Blue, "Remember to use +PZMenu to open the menu!")
 chat.AddText( White, "{Project-Zenith} ", Blue, "Star us on github!")
